@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- navBar -->
+      <div class="nav">
+        <div class="clock-msg">
+          <div class="clock-text-container">
+            <img class="clock-img" src="./images/clock.png" alt="" srcset="" />
+            <h2 class="clock-text">clock</h2>
+          </div>
+          <div class="msgBox">
+            <p class="msgBox-text">
+              The message and image will change according to the time
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- routine / two box -->
+      <div class="routine">
+        <div class="box1">
+          <img class="box1-img" src="./images/all-time.png" alt="" />
+          <h5 class="box1-text" id="box1-text"></h5>
+          <div class="alarmAndtime">
+            <div class="setAlarm" id="setAlarm">Set Alarm</div>
+            <div class="routine-time">
+              <p class="routine-time-text">Wake Up Time : 10AM-11AM</p>
+              <p class="routine-time-text">Lunch Time : 12PM-1PM</p>
+              <p class="routine-time-text">Nap Time : 4PM-5PM</p>
+              <p class="routine-time-text">Night Time : 8PM-9AM</p>
+            </div>
+          </div>
+          <div class="alarm-msg">
+            <p class="alarm-msg-text">
+              Time will be updated here after clicking on "Set Alarm"
+            </p>
+          </div>
+        </div>
+
+        <div class="box2">
+          <div class="digital-time">
+            <div class="digital-time-label">
+              <p class="digital-time-label-text">Time</p>
+            </div>
+            <div class="timeInBox">
+              <div class="time hour">
+                <p class="time-text" id="hour"></p>
+                <p class="t-text">hour</p>
+              </div>
+              <p class="dot">:</p>
+
+              <div class="time minute">
+                <p class="time-text" id="minute"></p>
+                <p class="t-text">minute</p>
+              </div>
+              <p class="dot">:</p>
+
+              <div class="time second">
+                <p class="time-text" id="second"></p>
+                <p class="t-text">second</p>
+              </div>
+
+              <div class="time ampm" id="ampm"></div>
+            </div>
+          </div>
+
+          <div class="box2-text" id="box2-text">
+            grab some healthy breakfast!!!
+          </div>
+          <img class="box2-img" id="image" src="" alt="" />
+
+          <img
+            class="remainingImg"
+            id="gA"
+            src="./images/goodAfternoon (2).png"
+            alt=""
+          />
+          <img
+            class="remainingImg"
+            id="gE"
+            src="./images/goodEvening (2).png"
+            alt=""
+          />
+          <img
+            class="remainingImg"
+            id="gM"
+            src="./images/goodMorning (2).png"
+            alt=""
+          />
+          <img
+            class="remainingImg"
+            id="gN"
+            src="./images/goodNight (2).png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

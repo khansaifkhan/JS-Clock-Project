@@ -101,6 +101,7 @@
     border-radius: 5px;
     padding: 15px 5px;
     margin: 5px 0;
+    text-align: center;
     position: relative;
 }
 
@@ -174,7 +175,6 @@
 }
 
 .digital-time{
-    border: 1px solid red;
     width: 100%;
     background-color: white;
     height: 20%;
@@ -293,7 +293,7 @@
     }
 
     .msgBox{
-        width: 120px;
+        width: 140px;
         height: 50px;
     }
 
@@ -355,7 +355,9 @@
 
     .digital-time{
         z-index: 3;
-        height: 200px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .digital-time::after {
